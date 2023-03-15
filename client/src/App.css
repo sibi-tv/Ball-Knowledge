@@ -1,0 +1,101 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  background-color: brown;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+}
+
+.a {
+  position: relative;
+  left: 500px;
+  top: 50px;
+}
+
+.b {
+  position: relative;
+  left: 980px;
+  bottom: 57px;
+}
+
+.information {
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.i {
+  position: relative;
+  display: flex;
+  bottom: 10px;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 15px;
+  margin: 5px;
+}
+
+Button {
+  width: 300px;
+  height: 50px;
+  margin-top: 30px;
+}
+
+Button:hover {
+  cursor: pointer;
+  background-color: 134, 0, 56;
+}
+
+.players {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.player {
+  text-align: center;
+  width: 810px;
+  height: auto;
+  color: rgb(255, 80, 0);
+  background-color: lightpink;
+  border: 1px solid saddlebrown;
+  margin: 10px;
+  display: block;
+  padding: 10px;
+}
+
+.uBut {
+  position: relative;
+  left: 2px;
+  bottom: 2px;
+}
+
+.player h3 {
+  margin: 20px;
+}
+
+p {
+  color:brown;
+}
+
+u {
+  color: black;
+}
